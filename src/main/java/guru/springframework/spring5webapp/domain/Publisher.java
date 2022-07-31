@@ -34,8 +34,21 @@ public class Publisher {
                 ", city='" + city + '\'' +
                 ", state='" + state + '\'' +
                 ", zip='" + zip + '\'' +
+                ", books='"+books+ '\''+
                 '}';
     }
+
+//    @Override
+//    public String toString() {
+//        return "Publisher{" +
+//                "id=" + id +
+//                ", name='" + name + '\'' +
+//                ", addressLine1='" + addressLine1 + '\'' +
+//                ", city='" + city + '\'' +
+//                ", state='" + state + '\'' +
+//                ", zip='" + zip + '\'' +
+//                '}';
+//    }
 
     @Override
     public boolean equals(Object o) {
